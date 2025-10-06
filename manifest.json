@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Time Clash",
   "version": "1.0",
-  "description": "Checks for overlapping time entries on your Harvest timesheet.",
+  "description": "Highlights overlapping time entries on your Harvest timesheet. ⚠️ Early in development — after some polish, it’ll be submitted to the official Chrome Web Store.",
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
