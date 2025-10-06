@@ -4,7 +4,11 @@ body {
   width: 250px; 
   text-align: center;
   margin: 0 auto;
-  height: 150px;
+  height: 200px;
+}
+
+p {
+  text-align: left;
 }
 
 a {
