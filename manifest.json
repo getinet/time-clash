@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "bHarvest Time Overlap Checker",
+  "name": "Time Clash",
   "version": "1.0",
   "description": "Checks for overlapping time entries on your Harvest timesheet.",
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
-      "matches": ["https://beezwax.harvestapp.com/*"],
+      "matches": ["https://*.harvestapp.com/*"],
       "js": ["content.js"]
     }
   ],
