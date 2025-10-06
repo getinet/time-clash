@@ -1,3 +1,60 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  width: 250px; 
+  text-align: center;
+  margin: 0 auto;
+  height: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #9C1E22;
+}
+input { 
+  width: 226px;
+  margin-top: 8px; 
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+}
+button {
+  margin-top: 10px; 
+  width: 250px; 
+  position: relative;
+  padding: 0.5rem 2rem;
+  font-weight: 400;
+  background: black;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  color:aliceblue;
+  border: none;
+  &:hover {
+    background: purple;
+  }
+}
+
+.header {
+  text-align: center;
+}
+
+.logo {
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+      width: 250px;
+  text-align: center;
+  p {
+    font-size: .825rem;
+  }
+}
+
 .harvest-overlap {
   outline: 3px solid red !important;
   background-color: rgba(255, 0, 0, 0.1) !important;
