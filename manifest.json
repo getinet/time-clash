@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Time Clash",
   "version": "1.0",
-  "description": "Highlights overlapping time entries on your Harvest timesheet. ⚠️ Early in development — after some polish, it’ll be submitted to the official Chrome Web Store.",
+  "description": "Highlights overlapping time entries on your Harvest timesheet. ⚠️ Early in development — after some polish, it'll be submitted to the official Chrome Web Store. This extension is an independent tool and is not affiliated with or endorsed by Harvest.",
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {

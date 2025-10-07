@@ -122,7 +122,13 @@ footer p {
   text-align: center;
   background: -webkit-gradient(linear, right top, left top, from(#ff6b6b), color-stop(#feca57), color-stop(#48dbfb), to(#5f27cd));
   background: linear-gradient(-90deg, #ff6b6b, #feca57, #48dbfb, #5f27cd);
-  background-size: 400% 400%;
-  -webkit-animation: gradientShift 36s cubic-bezier(0.4, 0, 1, 1) infinite;
-          animation: gradientShift 36s cubic-bezier(0.4, 0, 1, 1) infinite;
+  background-size: 600% 600%;
+  -webkit-animation: gradientShift 60s cubic-bezier(0.4, 0, 1, 1) infinite;
+          animation: gradientShift 60s cubic-bezier(0.4, 0, 1, 1) infinite;
+}
+
+.disclaimer {
+  font-size: 0.65rem;
+  line-height: normal;
+  text-align: center;
 }
