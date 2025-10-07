@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
   padding: 20px;
   width: 250px; 
   text-align: center;
@@ -8,9 +8,14 @@ body {
   border-radius: 20px;
   overflow: hidden;
 }
+h3 {
+  font-size: 1.5rem;
+}
 
 p {
   text-align: left;
+  font-size: 1.225rem;
+  line-height: 1.55rem;
 }
 
 a {
@@ -40,6 +45,12 @@ button {
   }
 }
 
+img {
+  background-color: #ffffff;
+  border-radius: 100%;
+  border: 3px solid #ffffff;
+}
+
 .header {
   text-align: center;
 }
@@ -50,15 +61,22 @@ button {
   border-radius: 10px;
   margin-bottom: 10px;
 }
+.quote {
+  font-weight: 200;
+}
+
+.quote span {
+  font-weight: 400;
+}
 
 footer {
-  /* position: absolute;
-  bottom: 20px;
-  width: 250px; */
   text-align: center;
-  padding: 20px 0 10px 0;
+  padding: .125rem 0;
+  background-color: #ffffff40;
+  border-radius: 2rem;
+  margin: 2rem 4rem;
   p {
-    font-size: .825rem;
+    font-size: 1rem;
     text-align: center;
   }
 }
@@ -66,4 +84,28 @@ footer {
 .harvest-overlap {
   outline: 3px solid red !important;
   background-color: rgba(255, 0, 0, 0.1) !important;
+}
+
+.gradiant {
+  margin: 0;
+  /* height: 400; */
+  width: 300px;
+  font-family: system-ui, sans-serif;
+  color: white;
+  text-align: center;
+  background: linear-gradient(-90deg, #ff6b6b, #feca57, #48dbfb, #5f27cd);
+  background-size: 400% 400%;
+  animation: gradientShift 36s cubic-bezier(0.4, 0, 1, 1) infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
