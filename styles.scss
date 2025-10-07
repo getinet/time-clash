@@ -3,9 +3,10 @@ $color_2: aliceblue;
 $color_3: white;
 $font-family_1: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 $font-family_2: system-ui, sans-serif;
+$color-orange: #fa5c01;
 $background-color_1: #ffffff;
 $background-color_2: black;
-$background-color_3: #ffffff40;
+$color-white-light: #ffffff40;
 $background-color_4: rgba(255, 0, 0, 0.1);
 
 @keyframes gradientShift {
@@ -21,13 +22,11 @@ $background-color_4: rgba(255, 0, 0, 0.1);
 }
 body {
 	font-family: $font-family_1;
-	padding: 20px;
-	width: 250px;
+  padding: 2rem 4rem;
+	width: 300px;
 	text-align: center;
 	margin: 0 auto;
 	height: fit-content;
-	border-radius: 20px;
-	overflow: hidden;
 }
 h3 {
 	font-size: 1.5rem;
@@ -92,7 +91,7 @@ img {
 footer {
 	text-align: center;
 	padding: .125rem 0;
-	background-color: $background-color_3;
+	background-color: $color-white-light;
 	border-radius: 2rem;
 	margin: 2rem 4rem;
 	p { font-size: 1rem;
@@ -100,8 +99,6 @@ footer {
   }
 }  
 .gradiant {
-	margin: 0;
-	width: 300px;
 	font-family: $font-family_2;
 	color: $color_3;
 	text-align: center;
@@ -114,4 +111,5 @@ footer {
   font-size: .65rem;
   line-height: normal;
   text-align: center;
+  color: $color-white-light;
 }

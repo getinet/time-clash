@@ -22,15 +22,13 @@
 }
 body {
   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-  padding: 20px;
-  width: 250px;
+  padding: 2rem 4rem;
+  width: 300px;
   text-align: center;
   margin: 0 auto;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border-radius: 20px;
-  overflow: hidden;
 }
 
 h3 {
@@ -115,8 +113,6 @@ footer p {
 }
 
 .gradiant {
-  margin: 0;
-  width: 300px;
   font-family: system-ui, sans-serif;
   color: white;
   text-align: center;
@@ -131,4 +127,5 @@ footer p {
   font-size: 0.65rem;
   line-height: normal;
   text-align: center;
+  color: rgba(255, 255, 255, 0.2509803922);
 }
