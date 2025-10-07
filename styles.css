@@ -1,13 +1,38 @@
+@-webkit-keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 body {
-  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
   padding: 20px;
-  width: 250px; 
+  width: 250px;
   text-align: center;
   margin: 0 auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   border-radius: 20px;
   overflow: hidden;
 }
+
 h3 {
   font-size: 1.5rem;
 }
@@ -22,33 +47,41 @@ a {
   text-decoration: none;
   color: #9C1E22;
 }
-input { 
+
+input {
   width: 226px;
-  margin-top: 8px; 
+  margin-top: 8px;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #f2f2f2;
 }
+
 button {
-  margin-top: 10px; 
-  width: 250px; 
+  margin-top: 10px;
+  width: 250px;
   position: relative;
   padding: 0.5rem 2rem;
   font-weight: 400;
   background: black;
   border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color:aliceblue;
+  color: aliceblue;
   border: none;
-  &:hover {
-    background: purple;
-  }
+}
+button:hover {
+  background: purple;
 }
 
 img {
   background-color: #ffffff;
   border-radius: 100%;
   border: 3px solid #ffffff;
+}
+
+.harvest-overlap {
+  outline: 3px solid red !important;
+  background-color: rgba(255, 0, 0, 0.1) !important;
 }
 
 .header {
@@ -61,51 +94,35 @@ img {
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
 .quote {
   font-weight: 200;
 }
-
 .quote span {
   font-weight: 400;
 }
 
 footer {
   text-align: center;
-  padding: .125rem 0;
-  background-color: #ffffff40;
+  padding: 0.125rem 0;
+  background-color: rgba(255, 255, 255, 0.2509803922);
   border-radius: 2rem;
   margin: 2rem 4rem;
-  p {
-    font-size: 1rem;
-    text-align: center;
-  }
 }
-
-.harvest-overlap {
-  outline: 3px solid red !important;
-  background-color: rgba(255, 0, 0, 0.1) !important;
+footer p {
+  font-size: 1rem;
+  text-align: center;
 }
 
 .gradiant {
   margin: 0;
-  /* height: 400; */
   width: 300px;
   font-family: system-ui, sans-serif;
   color: white;
   text-align: center;
+  background: -webkit-gradient(linear, right top, left top, from(#ff6b6b), color-stop(#feca57), color-stop(#48dbfb), to(#5f27cd));
   background: linear-gradient(-90deg, #ff6b6b, #feca57, #48dbfb, #5f27cd);
   background-size: 400% 400%;
-  animation: gradientShift 36s cubic-bezier(0.4, 0, 1, 1) infinite;
-}
-
-@keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  -webkit-animation: gradientShift 36s cubic-bezier(0.4, 0, 1, 1) infinite;
+          animation: gradientShift 36s cubic-bezier(0.4, 0, 1, 1) infinite;
 }
