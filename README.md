@@ -1,3 +1,5 @@
+![Time Clash](/icon128.png "Time Clash")
+
 ## A Simple Chrome Extension That Keeps My Harvest Times Honest
 
 If you use Harvest to track your time, you’ve probably had this happen: you log your day, feel productive, then later realize two entries overlap. Suddenly your totals are off, your reports don’t add up, and now you’re wondering if you accidentally invented time travel.
