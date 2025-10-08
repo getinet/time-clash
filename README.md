@@ -35,7 +35,7 @@ You can set it up in a couple of minutes:
  2. Open Chrome and go to chrome://extensions. 
  3. Toggle Developer mode on in the top right corner. 
  4. Click Load unpacked and select the folder with the extension files.  
- 5. Open your [Harvest timesheet](https://www.mekuriageti.net/fixing-the-overlap/#:~:text=A%20Simple%20Chrome,hours%20today?%E2%80%9D%20moments.)—the extension will automatically highlight any overlapping entries.
+ 5. Open your __Harvest Timesheet__ the extension will automatically highlight any overlapping entries.
 
 That’s it. No setup, no accounts, no extra steps. Just cleaner timesheets and fewer “wait, how did I work 25 hours today?” moments.
 
