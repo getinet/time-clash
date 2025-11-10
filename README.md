@@ -19,7 +19,7 @@ This little extension solves that by automatically flagging any overlapping entr
 
 Once installed, the extension quietly scans your daily entries every time you open your timesheet. If it spots any overlaps, it highlights them in red so you can fix them instantly.
 
-No popups, no alerts, no clicking through settings—just a clear visual cue that something needs adjusting.
+No popups, no alerts, no clicking through settings. Just a clear visual cue that something needs adjusting.
 
 **Why Harvest Should Totally Steal This Idea**
 
